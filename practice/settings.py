@@ -24,7 +24,7 @@ SECRET_KEY = 'xbd4!y+z)49h4^4^9z8apepoj!xw9#@(l91apmr@qob9t=5v$j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 # Application definition
 
@@ -80,6 +80,7 @@ WSGI_APPLICATION = 'practice.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -94,7 +95,7 @@ DATABASES = {
         }
     }
 }
-
+"""
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
