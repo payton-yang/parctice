@@ -1,0 +1,10 @@
+version: '2'
+services:
+    web:
+      container_name: python-3.6
+      build:
+        context: .
+        dockerfile: Dockerfile
+      restart: always
+      ports:
+        - "8000:8000"
